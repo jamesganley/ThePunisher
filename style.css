@@ -1,31 +1,87 @@
 .container{
-  color: pink;
-  font-family: arial;
-  margin: 0 auto;
 
+  font-family: arial;
+
+}
+
+.headerwrapper{
+  color: #B13433;
+  width: 100%;
+  height: 120px;
+}
+.img{
+  float: left;
+}
+.headerContainer{
+  padding-left: 40px;
+  min-width: 200px;
+}
+.header{
+  padding-left: 40px;
+  min-width: 200px;
 }
 
 .wrapper{
-  margin: 0 auto;
-  border: 3px solid #73AD21;
+
+  text-align: center;
 }
-.names{
-  background-color: blue;
+.centerDiv{
+  color: #B13433;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.namesWrapper{
+  width: 33%;
+  display: inline-block;
+  background-color: #adadad;
   float:left;
-  -width: 30%;
   overflow: hidden;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.names{
+  max-width: 150px;
+  text-align: left;
+  border-left: 30px;
+  margin: 0 auto;
 }
 
 .counter{
-  background-color: grey;
+  width: 34%;
+  background-color: #adadad;
   float: left;
-  -width: 30%;
   overflow: hidden;
+  height: 400px;
+}
+
+.buttonWrapper{
+
+  text-align: left;
+  width: 20%;
+  background-color: #adadad;
+  float: left;
+  overflow: hidden;
+  height: 400px;
+
 }
 
 .button{
-  background-color: yellow;
-  float:left;
-  -width: 30%;
-  overflow: hidden;
+  width: 20%;
+  margin-top: 51px;
+  line-height: 13px;
+  color: #adadad;
+}
+
+.footer {
+  border-top: 10px;
+  border-color: #adadad;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #B13433;
+   color:  #adadad;
+   text-align: center;
 }
