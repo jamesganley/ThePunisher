@@ -1,0 +1,31 @@
+.container{
+  color: pink;
+  font-family: arial;
+  margin: 0 auto;
+
+}
+
+.wrapper{
+  margin: 0 auto;
+  border: 3px solid #73AD21;
+}
+.names{
+  background-color: blue;
+  float:left;
+  -width: 30%;
+  overflow: hidden;
+}
+
+.counter{
+  background-color: grey;
+  float: left;
+  -width: 30%;
+  overflow: hidden;
+}
+
+.button{
+  background-color: yellow;
+  float:left;
+  -width: 30%;
+  overflow: hidden;
+}
