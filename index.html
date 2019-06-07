@@ -2,11 +2,14 @@
 <html>
 <head>
 <title>The Punisher</title>
+<meta charset="UTF-8">
+<link rel="shortcut icon" type="image/jpeg" href=".git\img\favicon.jpeg"/>
 <link rel="stylesheet" type="text/css" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
-<div class="container">
-
+<div class="page-container">
     <div class="headerwrapper">
       <div class="img">
         <img src=".git\img\logo.png" alt="broke" style="width:100px;height:100px;">
@@ -15,81 +18,303 @@
         <div class="header">
           <h1>The Punisher</h1>
         </div>
+        <div class="time">
+          <p id="date"></p>
+        </div>
+        <div class="timeSheet">
+          <p>This is for the month of</p>
+        </div>
       </div>
     </div>
 
-    <div class="wrapper">
-      <div class="centerDiv">
-        <div class="namesWrapper">
-          <h2>The Names</h2>
-          <div class="names">
-              <li>James Ganley</li>
-              <p></p>
-              <li>Matt O'Farrell</li>
-              <p></p>
-              <li>Stephen Kelly</li>
-              <p></p>
-              <li>Norman Newell</li>
-              <p></p>
-              <li>Ian O'Callaghan</li>
-              <p></p>
-              <li>Simo Collins</li>
-              <p></p>
-              <li>Paul Kelly</li>
-              <p></p>
-              <li>Triona Barcoe</li>
-              <p></p>
-              <li>Arman</li>
-              <p></p>
-              <li>Michael Conway</li>
-              <p></p>
+    <div class="boxContainer">
+      <div class="boxWrapper">
+        <div class="boxline">
+            <div class="boxOne">
+              <div class="boxOneNumber">
+                <h1 id="btn1">0</h1>
+                <p>James Ganley</p>
+                <p><button class="w3-button w3-white w3-round-xxlarge button1" type="button1" onclick="myFunction1()">Add</button></p>
+              </div>
+            </div>
+            <div class="boxTwo">
+              <div class="boxTwoNumber">
+                <h1 id="displayNum2">0</h1>
+                <p>Matt O'Farrell</p>
+                <p><button class="w3-button w3-white w3-round-xxlarge button2" type="button2" onclick="myFunction2()">Add</button></p>
+              </div>
+            </div>
+            <div class="boxThree">
+              <div class="boxThreeNumber">
+                <h1 id="displayNum3">0</h1>
+                <p>Stephen Kelly</p>
+                <p><button class="w3-button w3-white w3-round-xxlarge button3" type="button3" onclick="myFunction3()">Add</button></p>
+              </div>
+            </div>
+        </div>
+        <div class="boxLineTwo">
+          <div class="boxFour">
+            <div class="boxFourNumber">
+              <h1 id="displayNum4">0</h1>
+              <p>Norman Newell</p>
+              <p><button class="w3-button w3-white w3-round-xxlarge button4" type="button4" onclick="myFunction4()">Add</button></p>
+            </div>
+          </div>
+          <div class="boxFive">
+            <div class="boxFiveNumber">
+              <h1 id="displayNum5">0</h1>
+              <p>Ian O'Callaghan</p>
+              <p><button class="w3-button w3-white w3-round-xxlarge button5" type="button5" onclick="myFunction5()">Add</button></p>
+            </div>
+          </div>
+          <div class="boxSix">
+            <div class="boxSixNumber">
+              <h1 id="displayNum6">0</h1>
+              <p>Simon Collins</p>
+              <p><button class="w3-button w3-white w3-round-xxlarge button6" type="button6" onclick="myFunction6()">Add</button></p>
+            </div>
           </div>
         </div>
-        <div class="counter">
-          <h2>The Count</h2>
-            <p id="displayNum1">0</p>
-            <p id="displayNum2">0</p>
-            <p id="displayNum3">0</p>
-            <p id="displayNum4">0</p>
-            <p id="displayNum5">0</p>
-            <p id="displayNum6">0</p>
-            <p id="displayNum7">0</p>
-            <p id="displayNum8">0</p>
-            <p id="displayNum9">0</p>
-            <p id="displayNum10">0</p>
-
-
+        <div class="blockLineThree">
+          <div class="boxSeven">
+            <div class="boxSevenNumber">
+              <h1 id="displayNum7">0</h1>
+              <p>Paul Kelly</p>
+              <p><button class="w3-button w3-white w3-round-xxlarge button7" type="button7" onclick="myFunction7()">Add</button></p>
+            </div>
+          </div>
+          <div class="boxEight">
+            <div class="boxEightNumber">
+              <h1 id="displayNum8">0</h1>
+              <p>Triona Barcoe</p>
+              <p><button class="w3-button w3-white w3-round-xxlarge button8" type="button8" onclick="myFunction8()">Add</button></p>
+            </div>
+          </div>
+          <div class="boxNine">
+            <div class="boxNineNumber">
+              <h1 id="displayNum9">0</h1>
+              <p>Arman Hanley</p>
+              <p><button class="w3-button w3-white w3-round-xxlarge button9" type="button9" onclick="myFunction9()">Add</button></p>
+            </div>
+          </div>
         </div>
-          <div class="buttonWrapper">
+        <div class="boxLineFour">
+          <div class="boxTen">
+            <div class="boxTenNumber">
+              <h1 id="displayNum10">0</h1>
+              <p>Michael Conway</p>
+              <p><button class="w3-button w3-white w3-round-xxlarge button10" type="button10" onclick="myFunction10()">Add</button></p>
+            </div>
+          </div>
+          <div class="boxEleven">
+            <div class="boxTenNumber">
+              <h1 id="displayNum10">0</h1>
+              <p>Place Holder</p>
+              <p><button class="w3-button w3-white w3-round-xxlarge button10" type="button10" onclick="myFunction10()">Add</button></p>
+            </div>
+          </div>
+          <div class="boxTwelve">
+            <div class="boxTenNumber">
+              <h1 id="displayNum10">0</h1>
+              <p>Place Holder</p>
+              <p><button class="w3-button w3-white w3-round-xxlarge button10" type="button10" onclick="myFunction10()">Add</button></p>
+            </div>
+          </div>
+        </div>
+      </div>
 
-
-          <div class="button">
-              <li><button type="button1" onclick="myFunction1()">Add</button></li>
-              <li><button type="button2" onclick="myFunction2()">Add</button></li>
-              <li><button type="button3" onclick="myFunction3()">Add</button></li>
-              <li><button type="button4" onclick="myFunction4()">Add</button></li>
-              <li><button type="button5" onclick="myFunction5()">Add</button></li>
-              <li><button type="button6" onclick="myFunction6()">Add</button></li>
-              <li><button type="button7" onclick="myFunction7()">Add</button></li>
-              <li><button type="button8" onclick="myFunction8()">Add</button></li>
-              <li><button type="button9" onclick="myFunction9()">Add</button></li>
-              <li><button type="button10" onclick="myFunction10()">Add</button></li>
-              </div>
+    <div class="tableContainer">
+      <div class="tableWrapper">
+        <table>
+          <tr>
+            <th id="tableName"> Names </th>
+            <th> Days Out</th>
+            <th> Exemptions </th>
+            <th> Total Points </th>
+          </tr>
+          <tr>
+            <td>James Ganley</td>
+            <td>0</td>
+            <td>0</td>
+            <td><script>document.write(add1(););</script></td>
+          </tr>
+          <tr>
+            <td>Matt O'Farrell</td>
+            <td>0</td>
+            <td>0</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Stephen Kelly</td>
+            <td>0</td>
+            <td>0</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Norman Newell</td>
+            <td>0</td>
+            <td>0</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Ian O'Callaghan</td>
+            <td>0</td>
+            <td>0</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Simon Collins</td>
+            <td>0</td>
+            <td>0</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Paul Kelly</td>
+            <td>0</td>
+            <td>0</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Triona Barcoe</td>
+            <td>0</td>
+            <td>0</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Arman Hanley</td>
+            <td>0</td>
+            <td>0</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Michael Conway</td>
+            <td>0</td>
+            <td>0</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Place Holder</td>
+            <td>0</td>
+            <td>0</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Place Holder</td>
+            <td>0</td>
+            <td>0</td>
+            <td> </td>
+          </tr>
+        </table>
       </div>
     </div>
 
-</div>
+    <div class="clockContainer">
+      <div class="clockWrapper">
+        <canvas id="canvas" width="375" height="355"></canvas>
+      </div>
+    </div>
+  </div>
 
 
 </body>
-<script>
-  var add1 = (function () {
-  var counter = 0;
-  return function () {counter += 1; return counter;}
-  })();
-    function myFunction1(){
-      document.getElementById("displayNum1").innerHTML = add1();
-    }
+<script type="text/javascript">
+
+n =  new Date();
+y = n.getFullYear();
+m = n.getMonth() + 1;
+d = n.getDate();
+
+document.getElementById("date").innerHTML = d + " / " + m + " / " + y;
+
+var canvas = document.getElementById("canvas");
+var ctx = canvas.getContext("2d");
+var radius = canvas.height / 2;
+ctx.translate(radius, radius);
+radius = radius * 0.90
+setInterval(drawClock, 1000);
+
+function drawClock() {
+  drawFace(ctx, radius);
+  drawNumbers(ctx, radius);
+  drawTime(ctx, radius);
+}
+
+function drawFace(ctx, radius) {
+  var grad;
+  ctx.beginPath();
+  ctx.arc(0, 0, radius, 0, 2*Math.PI);
+  ctx.fillStyle = '#4f3c5d';
+  ctx.fill();
+  grad = ctx.createRadialGradient(0,0,radius*0.95, 0,0,radius*1.05);
+  grad.addColorStop(0, 'white');
+  grad.addColorStop(0.5, '#4f3c5d');
+  grad.addColorStop(1, 'white');
+  ctx.strokeStyle = grad;
+  ctx.lineWidth = radius*0.1;
+  ctx.stroke();
+  ctx.beginPath();
+  ctx.arc(0, 0, radius*0.1, 0, 2*Math.PI);
+  ctx.fillStyle = 'white';
+  ctx.fill();
+}
+
+function drawNumbers(ctx, radius) {
+  var ang;
+  var num;
+  ctx.font = radius*0.15 + "px arial";
+  ctx.textBaseline="middle";
+  ctx.textAlign="center";
+  for(num = 1; num < 13; num++){
+    ang = num * Math.PI / 6;
+    ctx.rotate(ang);
+    ctx.translate(0, -radius*0.85);
+    ctx.rotate(-ang);
+    ctx.fillText(num.toString(), 0, 0);
+    ctx.rotate(ang);
+    ctx.translate(0, radius*0.85);
+    ctx.rotate(-ang);
+  }
+}
+
+function drawTime(ctx, radius){
+    var now = new Date();
+    var hour = now.getHours();
+    var minute = now.getMinutes();
+    var second = now.getSeconds();
+    //hour
+    hour=hour%12;
+    hour=(hour*Math.PI/6)+
+    (minute*Math.PI/(6*60))+
+    (second*Math.PI/(360*60));
+    drawHand(ctx, hour, radius*0.5, radius*0.07);
+    //minute
+    minute=(minute*Math.PI/30)+(second*Math.PI/(30*60));
+    drawHand(ctx, minute, radius*0.8, radius*0.07);
+    // second
+    second=(second*Math.PI/30);
+    drawHand(ctx, second, radius*0.9, radius*0.02);
+}
+
+function drawHand(ctx, pos, length, width) {
+    ctx.beginPath();
+    ctx.lineWidth = width;
+    ctx.lineCap = "round";
+    ctx.moveTo(0,0);
+    ctx.rotate(pos);
+    ctx.lineTo(0, -length);
+    ctx.stroke();
+    ctx.rotate(-pos);
+}
+
+
+
+
+  var button = document.getElementById("btn1"),
+  count = 0;
+  button.onclick = function() {
+  count += 1;
+  button.innerHTML = "Click me: " + count;
+};
 
     var add2 = (function () {
     var counter = 0;
@@ -99,78 +324,78 @@
         document.getElementById("displayNum2").innerHTML = add2();
       }
 
-      var add3 = (function () {
-      var counter = 0;
-      return function () {counter += 1; return counter;}
+    var add3 = (function () {
+    var counter = 0;
+    return function () {counter += 1; return counter;}
+    })();
+     function myFunction3(){
+       document.getElementById("displayNum3").innerHTML = add3();
+     }
+
+    var add4 = (function () {
+    var counter = 0;
+    return function () {counter += 1; return counter;}
+    })();
+      function myFunction4(){
+        document.getElementById("displayNum4").innerHTML = add4();
+      }
+
+    var add5 = (function () {
+    var counter = 0;
+    return function () {counter += 1; return counter;}
+    })();
+    function myFunction5(){
+      document.getElementById("displayNum5").innerHTML = add5();
+    }
+
+    var add6 = (function () {
+    var counter = 0;
+    return function () {counter += 1; return counter;}
+    })();
+      function myFunction6(){
+        document.getElementById("displayNum6").innerHTML = add6();
+      }
+
+    var add7 = (function () {
+    var counter = 0;
+    return function () {counter += 1; return counter;}
+    })();
+      function myFunction7(){
+        document.getElementById("displayNum7").innerHTML = add7();
+      }
+
+    var add8 = (function () {
+    var counter = 0;
+    return function () {counter += 1; return counter;}
+    })();
+      function myFunction8(){
+        document.getElementById("displayNum8").innerHTML = add8();
+      }
+
+    var add9 = (function () {
+    var counter = 0;
+    return function () {counter += 1; return counter;}
       })();
-        function myFunction3(){
-          document.getElementById("displayNum3").innerHTML = add3();
-        }
+      function myFunction9(){
+        document.getElementById("displayNum9").innerHTML = add9();
+      }
 
-        var add4 = (function () {
-        var counter = 0;
-        return function () {counter += 1; return counter;}
-        })();
-          function myFunction4(){
-            document.getElementById("displayNum4").innerHTML = add4();
-          }
-
-          var add5 = (function () {
-          var counter = 0;
-          return function () {counter += 1; return counter;}
-          })();
-            function myFunction5(){
-              document.getElementById("displayNum5").innerHTML = add5();
-            }
-
-            var add6 = (function () {
-            var counter = 0;
-            return function () {counter += 1; return counter;}
-            })();
-              function myFunction6(){
-                document.getElementById("displayNum6").innerHTML = add6();
-              }
-
-              var add7 = (function () {
-              var counter = 0;
-              return function () {counter += 1; return counter;}
-              })();
-                function myFunction7(){
-                  document.getElementById("displayNum7").innerHTML = add7();
-                }
-
-                var add8 = (function () {
-                var counter = 0;
-                return function () {counter += 1; return counter;}
-                })();
-                  function myFunction8(){
-                    document.getElementById("displayNum8").innerHTML = add8();
-                  }
-
-                  var add9 = (function () {
-                  var counter = 0;
-                  return function () {counter += 1; return counter;}
-                  })();
-                    function myFunction9(){
-                      document.getElementById("displayNum9").innerHTML = add9();
-                    }
-
-                    var add10= (function () {
-                    var counter = 0;
-                    return function () {counter += 1; return counter;}
-                    })();
-                      function myFunction10(){
-                        document.getElementById("displayNum10").innerHTML = add10();
-                      }
+    var add10= (function () {
+    var counter = 0;
+    return function () {counter += 1; return counter;}
+    })();
+      function myFunction10(){
+        document.getElementById("displayNum10").innerHTML = add10();
+      }
 
 
 
 </script>
-<div class="footer">
-  <h2>Rules of The Game</h2>
-  <p>You get a point for everytime you clean out ther dish washer, take out the bins or anything Michael deems good enough, you get a point.</p>
-  <p>Get yourself enough points and you get off the list and have to buy everyone in the office pastrys</p>
+  <div class="footer">
+    <h3>Rules of The Game</h3>
+    <p>You get a point for every time you clean out the dish washer, take out the bins or anything Michael deems good enough, you get a point.</p>
+    <p>Get yourself enough points and you get off the list and have to buy everyone in the office pastries.</p>
 
-</div>
+  </div>
 
 </html>

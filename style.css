@@ -1,87 +1,310 @@
-.container{
-
-  font-family: arial;
+.page-container{
+  background-color: #2c1e32;
+  font-family: Helvetica;
 
 }
 
 .headerwrapper{
-  color: #B13433;
+  -webkit-box-shadow: 0 8px 6px -6px #c050df;
+	-moz-box-shadow: 0 8px 6px -6px #c050df;
+	box-shadow: 0 8px 6px -6px #c050df;
+  background-color: #4f3c5d;
+  color: white;
   width: 100%;
   height: 120px;
 }
+
 .img{
+  padding: 10px;
   float: left;
 }
-.headerContainer{
-  padding-left: 40px;
-  min-width: 200px;
-}
+
 .header{
-  padding-left: 40px;
+  padding-left: 50px;
   min-width: 200px;
 }
 
-.wrapper{
-
-  text-align: center;
+.timeSheet{
+  float: right;
+  padding-right: 6px;
 }
-.centerDiv{
+
+.time{
+  float: right;
+  padding-right: 30px;
+}
+
+.headerContainer{
+  padding-left: 70px;
+  min-width: 200px;
+}
+
+.boxContainer{
+  padding: 20px;
+  margin: 0 auto;
+  float: left;
+  clear: left;
+  min-width: 60%;
+}
+
+.boxWrapper{
+	background-color: rgb(192,80,223); /* Needed for IEs */
+	-moz-box-shadow: 5px 5px 5px rgba(192,80,223,0.6);
+	-webkit-box-shadow: 5px 5px 5px rgba(192,80,223,0.6);
+	box-shadow: 5px 5px 5px rgba(192,80,223,0.6);
+	filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30)";
+	zoom: 1;
+  background-color: #4f3c5d;
   color: #B13433;
-  width: 60%;
-  margin: 0 auto;
+  border-radius: 5px;
+  clear: left;
+  float: left;
+  min-width: 910px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-.namesWrapper{
-  width: 33%;
-  display: inline-block;
-  background-color: #adadad;
+button{
+
+}
+
+p.numberCount{
+
+}
+
+.boxLineOne{
+  float: left;
+  clear: left;
+  width: 100%;
+}
+.boxLineTwo{
+  float: left;
+  clear: left;
+  width: 100%;
+}
+
+.boxLineThree{
+  float: left;
+  clear: left;
+  width: 100%;
+}
+
+.boxLineFour{
+  float: left;
+  clear: left;
+  width: 100%;
+}
+
+.boxOne{
+  margin: 10px;
+  padding: 3px;
+  border-radius: 10px;
+  text-align: center;
+  color: White;
+  min-width: 30%;
+  float: left;
+  background-color: #269ef7;
+}
+
+.boxTwo{
+  margin: 10px;
+  padding: 3px;
+  border-radius: 10px;
+  text-align: center;
+  color: White;
+  min-width: 30%;
+  float: left;
+  background-color: #269ef7;
+}
+
+.boxThree{
+  margin: 10px;
+  padding: 3px;
+  border-radius: 10px;
+  text-align: center;
+  color: White;
+  min-width: 30%;
+  float: left;
+  background-color: #269ef7;
+}
+
+.boxFour{
+  margin: 10px;
+  padding: 3px;
+  border-radius: 10px;
+  text-align: center;
+  color: White;
+  min-width: 30%;
+  float: left;
+  background-color: #46b3c5;
+}
+
+.boxFive{
+  margin: 10px;
+  padding: 3px;
+  border-radius: 10px;
+  text-align: center;
+  color: White;
+  min-width: 30%;
+  float: left;
+  background-color: #46b3c5;
+}
+
+.boxSix{
+  margin: 10px;
+  padding: 3px;
+  border-radius: 10px;
+  text-align: center;
+  color: White;
+  min-width: 30%;
+  float: left;
+  background-color: #46b3c5;
+}
+
+.boxSeven{
+  margin: 10px;
+  padding: 3px;
+  border-radius: 10px;
+  text-align: center;
+  color: White;
+  min-width: 30%;
+  float: left;
+  background-color: #62c990;
+}
+
+.boxEight{
+  margin: 10px;
+  padding: 3px;
+  border-radius: 10px;
+  text-align: center;
+  color: White;
+  min-width: 30%;
+  float: left;
+  background-color: #62c990;
+}
+
+.boxNine{
+  margin: 10px;
+  padding: 3px;
+  border-radius: 10px;
+  text-align: center;
+  color: White;
+  min-width: 30%;
+  float: left;
+  background-color: #62c990;
+}
+
+.boxTen{
+  margin: 10px;
+  padding: 3px;
+  border-radius: 10px;
+  text-align: center;
+  color: White;
+  min-width: 30%;
+  float: left;
+  background-color: #79d963;
+}
+
+.boxEleven{
+  margin: 10px;
+  padding: 3px;
+  border-radius: 10px;
+  text-align: center;
+  color: White;
+  min-width: 30%;
+  float: left;
+  background-color: #79d963;
+}
+
+.boxTwelve{
+  margin: 10px;
+  padding: 3px;
+  border-radius: 10px;
+  text-align: center;
+  color: White;
+  min-width: 30%;
+  float: left;
+  background-color: #79d963;
+}
+
+.clockContainer{
+  min-width: 300px;
+  min-height: 300px;
+  margin: 0 auto;
+  float: left;
+  padding-top: 20px;
+  padding-left: 20px;
+
+}
+
+.clockWrapper{
+  margin: 0 auto;  
+}
+
+canvas{
+  background-color: rgb(192,80,223); /* Needed for IEs */
+  -moz-box-shadow: 5px 5px 5px rgba(192,80,223,0.6);
+  -webkit-box-shadow: 5px 5px 5px rgba(192,80,223,0.6);
+  box-shadow: 5px 5px 5px rgba(192,80,223,0.6);
+  filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30)";
+  zoom: 1;
+  border-radius: 5px;
+  background-color:#4f3c5d;
   float:left;
-  overflow: hidden;
-  height: 400px;
+}
+
+
+
+.tableContainer{
+  max-width: 30%;
   margin: 0 auto;
+  float: left;
+  padding-left: 20px;
+
 }
 
-.names{
-  max-width: 150px;
-  text-align: left;
-  border-left: 30px;
+.tableWrapper{
+  background-color: rgb(192,80,223); /* Needed for IEs */
+  -moz-box-shadow: 5px 5px 5px rgba(192,80,223,0.6);
+  -webkit-box-shadow: 5px 5px 5px rgba(192,80,223,0.6);
+  box-shadow: 5px 5px 5px rgba(192,80,223,0.6);
+  filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30)";
+  zoom: 1;
+  border-radius: 5px;
+  float: left;
+  padding: 10px;
   margin: 0 auto;
+  min-height: 310px;
+  background-color: #4f3c5d;
+
 }
 
-.counter{
-  width: 34%;
-  background-color: #adadad;
+table {
   float: left;
-  overflow: hidden;
-  height: 400px;
+  font-family: arial, sans-serif;
+  color: white;
+  border-collapse: collapse;
+  width: 100%;
 }
 
-.buttonWrapper{
+td, th {
+  border: 2px solid #c050df;
+  -padding-right: 50px;
+}
 
-  text-align: left;
-  width: 20%;
+tr:nth-child(even) {
   background-color: #adadad;
-  float: left;
-  overflow: hidden;
-  height: 400px;
-
-}
-
-.button{
-  width: 20%;
-  margin-top: 51px;
-  line-height: 13px;
-  color: #adadad;
 }
 
 .footer {
-  border-top: 10px;
-  border-color: #adadad;
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: #B13433;
-   color:  #adadad;
-   text-align: center;
+  color: white;
+  text-align: center;
+  position: relative;
+  margin-top: -120px;
+  height: 120px;
+  clear: both;
+  background-color: #4f3c5d;
 }
